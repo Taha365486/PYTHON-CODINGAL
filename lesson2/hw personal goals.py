@@ -11,7 +11,7 @@ print("\nMY PERSONAL GOAL PLAN\n")
 print("Name:", person_name)
 print("Goal:", goal_name)
 print("Target month", target_month)
-print("Daily practise:", daily_minute)
+print("Daily practise :", daily_minutes, "minutes")
 #print two lines that join up 
 print("Status:", end="  ")
 print("Not started")
@@ -19,3 +19,5 @@ print("Reminder:", end=" - ")
 print("Practise every day!")
 #print the sentence and keywords
 print("In one sentence:", person_name, "wants to get better at", goal_name, "By practising", daily_minutes, "minutes every day until", target_month)
+#Print Python's reserved word list.
+print(keyword.kwlist)
