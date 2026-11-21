@@ -1,4 +1,4 @@
-name = input("enter your real name, Taha:")
+name = input("enter your real name :Taha")
 device = input("enter your favorite device:")
 
 agent_number = 7
