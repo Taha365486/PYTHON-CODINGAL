@@ -1,0 +1,12 @@
+print("############################################")
+print("                 BMI CALCULATOR            ")
+print("############################################")
+print()
+weight = int(input("Enter your weight in kg:"))
+height = int(input("Enter your height in metres:"))
+bmi = weight / (height*height)
+
+print()
+print("Weight:", weight, "kg")
+print("Height:", height, "metres")
+print("Your BMI is:", round(bmi,2))
